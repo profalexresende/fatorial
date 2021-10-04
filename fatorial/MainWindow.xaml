@@ -1,0 +1,16 @@
+﻿<Window x:Class="fatorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fatorial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <Grid>
+        <Label x:Name="lblNumero" Content="Digite um número" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNumero" HorizontalAlignment="Left" Margin="22,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnFatorial" Content="Fatorial" HorizontalAlignment="Left" Margin="22,59,0,0" VerticalAlignment="Top" Width="120" Click="btnFatorial_Click"/>
+        <Label x:Name="lblResultado" Content="Aqui aparecerá o resultado" HorizontalAlignment="Left" Margin="22,84,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
